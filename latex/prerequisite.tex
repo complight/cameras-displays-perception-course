@@ -1,0 +1,32 @@
+\chapter*{Prerequisite}
+
+The material for this course assumes some basic assumptions about the course participants.
+The participants in the audience should have some familiarity with concepts such as \textit{Metaverse},  Telelife~\citep{10.3389/frvir.2021.763340}, virtual reality and augmented reality.
+Participants can be from various technical backgrounds but are willing to advance their understanding of the optimization side of displays, cameras or perception.
+The course material will describe the base hardware used in the demonstrated optimizations.
+However, the lecturers will not cover how to build this hardware from the ground up. 
+Instead, they will provide a quick overview and cite relevant resources from the most recent literature.
+The attendees are also expected to be knowledgeable or willing to learn Python programming language, modern machine learning libraries, signal theory, and optics.
+But most importantly, above-average interest in optimizing future's devices is a must.
+
+The code material of this course is a result of various research works from the \href{https://complightlab.com}{Computational Light Laboratory} that was conducted in the passing one-year timeframe (2021-2022). 
+These research works include new methods for foveated rendering and image statistics~\citep{walton2021beyond}, learned techniques for holographic light transport~\citep{kavakli2022learned}, learned optimizations for multiplane holography~\citep{kavakli2022realisticdefocus}, perceptually guided hologram generation routines in displays~\citep{walton2021metameric} and learned optimizations for lensless cameras~\citep{kingshott2022unrolled}.
+
+Individuals willing to replicate the outcome of our materials from this course on their local machines have to install several pieces of software in their operating systems.
+Such individuals must be familiar with the \texttt{Python} programming language, and they should install \href{https://www.python.org/}{Python} and \href{https://jupyter.org/}{Jupyter Notebooks} in their operating systems.
+In addition, these individuals will need to install \href{https://pytorch.org/}{Torch} with its Python bindings, \href{https://matplotlib.org/}{Matplotlib} and \href{https://plotly.com/}{plotly} libraries for plotting purposes while using the provided Jupyter Notebooks. 
+When we compiled this material, our production machines used the Python distribution \texttt{3.9.7}, Torch distribution \texttt{1.9.0}, Matplotlib distribution \texttt{3.3.4} and Jupyter Notebook distribution \texttt{6.2.0}. As a final piece, please make sure to install our
+library using:
+
+\begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{1}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{pip} \PY{n}{install} \PY{n}{odak}
+\end{Verbatim}
+\end{tcolorbox}
+
+At the time of this course, Odak is at version \texttt{0.2.0}.
+The participants willing to go beyond this course and learn more about relevant research are welcome to reach out to the lecturers via email.
+In addition, Computational Light Laboratory offers \href{https://complightlab.com/seminars/}{seminars} from experts on relevant topics.
+Finally, Computational Light Laboratory also invites all attendees to a research hub formulated as a \href{https://complightlab.com/research_hub/}{Slack Group}.
+This way, curious readers and attendees of our course can keep up-to-date and meet more folks in the relevant fields.
